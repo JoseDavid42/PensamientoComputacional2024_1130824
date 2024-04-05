@@ -1,0 +1,42 @@
+# Pedir al usuario su edad
+edad = int(input("Por favor, introduce tu edad: "))
+
+if edad > 18:
+    print("Debes tramitar tu DPI (Documento Personal de Identificación).")
+
+
+Pedir al usuario que ingrese un número
+numero = float(input("Por favor, introduce un número: "))
+3
+if numero > 0:
+    print("El número es positivo.")
+elif numero < 0:
+    print("El número es negativo.")
+else:
+    print("El número es cero.")
+
+
+# Solicitar al usuario que ingrese un número
+numero = int(input("Por favor, introduce un número: "))
+
+
+if numero == 1:
+    print("Uno")
+elif numero == 2:
+    print("Dos")
+elif numero == 3:
+    print("Tres")
+elif numero == 4:
+    print("Cuatro")
+elif numero == 5:
+    print("Cinco")
+else:
+    print("Número no definido")
+
+# Imprimir la tabla de multiplicar del número 2
+print("Tabla de multiplicar del número 2:")
+for i in range(1, 11):
+    resultado = 2 * i
+    print("2 x", i, "=", resultado)
+
+
